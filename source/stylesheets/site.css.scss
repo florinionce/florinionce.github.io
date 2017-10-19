@@ -12,7 +12,9 @@ body {
   height: 100%;
 }
 
-html { height: 100%; }
+html {
+  height: 100%;
+}
 
 h1 {
   color: white;
@@ -33,15 +35,18 @@ h1 {
     -webkit-transform: scale(0);
     opacity: 0;
   }
+
   50% {
    -webkit-transform: scale(0);
    opacity: 0;
   }
+
   82.5% {
     -webkit-transform: scale(1.03);
     -webkit-animation-timing-function: ease-out;
     opacity: 1;
   }
+
   to {
     -webkit-transform: scale(1);
   }
